@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Data Loading",
+    "description": "Load the dataset correctly",
+    "max_points": 15,
+    "criteria": [
+      "pandas",
+      "read_csv"
+    ],
+    "weight": 1.0
+  },
+  {
+    "name": "Data Exploration",
+    "description": "Basic data exploration",
+    "max_points": 20,
+    "criteria": [
+      "isnull",
+      "duplicated",
+      "info"
+    ],
+    "weight": 1.0
+  },
+  {
+    "name": "Data Analysis",
+    "description": "Perform data analysis",
+    "max_points": 30,
+    "criteria": [
+      "groupby",
+      "value_counts",
+      "loc"
+    ],
+    "weight": 1.0
+  },
+  {
+    "name": "Code Quality",
+    "description": "Code quality and documentation",
+    "max_points": 10,
+    "criteria": [
+      "comments",
+      "naming"
+    ],
+    "weight": 0.5
+  }
+]
